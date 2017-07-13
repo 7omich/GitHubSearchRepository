@@ -12,6 +12,7 @@
 		B6552A251F16499900E54685 /* JSONDecodeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6552A241F16499900E54685 /* JSONDecodeError.swift */; };
 		B6552A271F164CB400E54685 /* JSONDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6552A261F164CB400E54685 /* JSONDecodable.swift */; };
 		B6552A291F1660FF00E54685 /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6552A281F1660FF00E54685 /* SearchResponse.swift */; };
+		B6808B601F17676900A24980 /* GitHubClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6808B5F1F17676800A24980 /* GitHubClient.swift */; };
 		B6A64EDA1F166B490098FB00 /* GitHubRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A64ED91F166B490098FB00 /* GitHubRequest.swift */; };
 		B6A64EDC1F166CAA0098FB00 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A64EDB1F166CAA0098FB00 /* HTTPMethod.swift */; };
 		B6A64EDE1F166EF00098FB00 /* GitHubAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A64EDD1F166EF00098FB00 /* GitHubAPI.swift */; };
@@ -39,6 +40,7 @@
 		B6552A241F16499900E54685 /* JSONDecodeError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONDecodeError.swift; sourceTree = "<group>"; };
 		B6552A261F164CB400E54685 /* JSONDecodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONDecodable.swift; sourceTree = "<group>"; };
 		B6552A281F1660FF00E54685 /* SearchResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
+		B6808B5F1F17676800A24980 /* GitHubClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubClient.swift; sourceTree = "<group>"; };
 		B6A64ED91F166B490098FB00 /* GitHubRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubRequest.swift; sourceTree = "<group>"; };
 		B6A64EDB1F166CAA0098FB00 /* HTTPMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
 		B6A64EDD1F166EF00098FB00 /* GitHubAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubAPI.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 		B63C06331F151F0E00833149 = {
 			isa = PBXGroup;
 			children = (
+				B6808B5F1F17676800A24980 /* GitHubClient.swift */,
 				B6552A1E1F16468600E54685 /* Response */,
 				B6ADB6111F166417004EBC02 /* Error */,
 				B6A64ED81F166B230098FB00 /* Request */,
@@ -177,6 +180,7 @@
 				B6552A251F16499900E54685 /* JSONDecodeError.swift in Sources */,
 				B6ADB6151F16655E004EBC02 /* GitHubAPIError.swift in Sources */,
 				B6ADB6171F166896004EBC02 /* main.swift in Sources */,
+				B6808B601F17676900A24980 /* GitHubClient.swift in Sources */,
 				B6552A271F164CB400E54685 /* JSONDecodable.swift in Sources */,
 				B6ADB6131F166442004EBC02 /* GitHubClientError.swift in Sources */,
 				B6552A291F1660FF00E54685 /* SearchResponse.swift in Sources */,
